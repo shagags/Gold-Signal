@@ -1,0 +1,8 @@
+goldwick-api/
+├─ app.py            # == your Cell B code (FastAPI + strategy)
+├─ requirements.txt  # fastapi==0.110.0
+                    # uvicorn==0.29.0
+                    # pandas
+                    # requests
+├─ start.sh          #!/usr/bin/env bash
+                     # uvicorn app:app --host 0.0.0.0 --port $PORT
