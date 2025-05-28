@@ -1,4 +1,3 @@
-
 ├─ app.py            # == your Cell B code (FastAPI + strategy)
 ├─ requirements.txt  # fastapi==0.110.0
                     # uvicorn==0.29.0
